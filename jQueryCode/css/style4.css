@@ -1,0 +1,22 @@
+#box{
+	width: 100px;
+	height: 100px;
+	background: green;
+	position: absolute;
+}
+
+.text{
+	padding: 5px;
+	margin-left: 5px;
+	background: orange;
+	float: left;
+	display: none;
+}
+
+#pox{
+	width: 100px;
+	height: 100px;
+	left: 150px;
+	background: red;
+	position: absolute;
+}

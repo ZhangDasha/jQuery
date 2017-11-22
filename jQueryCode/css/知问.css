@@ -1,0 +1,99 @@
+body{
+	margin:40px 0 0 0;
+	padding: 0;
+	font-family: 宋体;
+	font-size: 12px;
+	background: #fff;
+}
+#header{
+	width: 100%;
+	height: 40px;
+	background: url(../img/tt.png);
+	position: absolute;
+	top: 0;
+}
+
+#header .header_main{
+	width: 800px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+#header .header_main h1{
+	margin: 0;
+	padding: 0 10px ;
+	font-size: 20px;
+	color: #666;
+	height: 40px;
+	line-height: 40px;
+	float: left;	
+}
+
+#header .header_serach {
+	padding: 6px 0 0 0;
+	margin: 0;
+	float: left;
+}
+
+#header .header_serach .serach{
+	width: 300px;
+	height: 23px;
+	border: 1px solid #ccc;
+	background: #fff;
+	color: #666;
+	font-size: 16px;
+	text-indent: 5px;
+}
+
+#header .header_button {
+	padding: 5px;
+	float: left;
+	
+}
+
+#header .header_member{
+	float: right;
+	height: 40px;
+	line-height: 40px;
+	color:#555;
+	font-size: 14px;
+}
+
+#header .header_member a{
+	text-decoration: none;
+	color: #555;
+}
+
+#reg p{
+	margin: 10px;
+	padding: 0;
+}
+
+#reg .span{
+	color: maroon;
+}
+
+#reg .text{
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	background: #fff;
+	width: 28 0px;
+	height: 25px;
+	line-height: 25px;
+	text-indent: 5px;
+	color: #666;
+}
+
+#reg ol{
+	margin: 0;
+	padding: 0 0 0 12px;
+	color: maroon;
+}
+#reg ol li{
+	height: 20px;
+}
+
+/*工具提示的颜色*/
+.ui-tooltip{
+	color: red;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>知问前段</title>
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.js"></script>
+		<script type="text/javascript" src="js/jquery.validate.js"></script>
+		<script type="text/javascript" src="js/知问.js"></script>
+		<link rel="shortcut icon" href="img/mm.png" type="image/x-icon"/>
+		<link rel="stylesheet" href="css/jquery.autocomplete.css" type="text/css" />
+		<link rel="stylesheet" href="css/jquery-ui.css" type="text/css"/>
+		<link rel="stylesheet" href="css/知问.css" type="text/css" />
+	</head>
+	<body>
+		<div id="header">
+			<div class="header_main">
+				<h1>知问</h1>
+				<div class="header_serach">
+					<input type="text" name="serach" class="serach"/>
+				</div>
+				<div class="header_button">
+					<input type="button" value="查询" id="search_button" />
+				</div>
+				<div class="header_member">
+					<a href="###" id="reg_a">注册</a> | <a href="###" id="login_a">登陆</a>
+				</div>
+			</div>
+		</div>
+		
+		<form id="reg" action="123.html" title="会员注册" >
+			<ol class="reg_error"></ol>
+			<p>
+				<label for="user">账号：</label>
+				<input type="text" name="user" class="text" id="user" />
+				<span class='span'>*</span>
+			</p>
+			<p>
+				<label for="pass">密码：</label>
+				<input type="password" name="pass" class="text" id="pass" />
+				<span class='span'>*</span>
+			</p> 
+			<p>
+				<label for="email">邮箱：</label>
+				<input type="text" name="email" class="text" id="email"/>
+			</p>
+			<p>
+				<label>性别：</label>
+				<input type="radio" name="sex" value="male" id="male" checked="checked"><label for="male">男</label></input>
+				<input type="radio" name="sex" value="female" id="female"><label for="female">女</label></input>
+			</p>
+			<p>
+				<label for="date">生日：</label>
+				<!--readonly="readonly 只读-->
+				<input type="text" name="date" class="text" id="date" readonly="readonly"/>
+			</p>
+		</form>
+	</body>
+</html>

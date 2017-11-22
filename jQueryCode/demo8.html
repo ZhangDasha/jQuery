@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<title></title>
+		<script type="text/javascript">
+			$(function(){
+//				$('#box').delegate('.button','click',function(){
+//					$(this).clone(true).appendTo('div');
+//				});
+
+				
+				$('.button').click(function(){
+					$('#box').animate({
+						width:'400px',
+						height:'400px',
+						opacity:0.5,
+						fontSize:'50px'
+					},2000,function(){
+						alert('执行完毕');
+					});
+				});
+				
+				
+			});
+		</script>
+	</head>
+	<body>
+		<input type="button"  value="按钮"  class="button"/>
+		<div id="box" style="width: 200px; height: 200px; background: green;">
+			box			
+		</div>
+	</body>
+</html>

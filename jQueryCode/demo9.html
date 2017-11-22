@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<title>Document</title>
+	<script>
+		$(function(){
+
+			$('form input[type=button]').click(function() {
+				$.ajax({
+					type:'POST',
+					url:'user.php',
+					data:{
+						user:$('form input[name=user]').val(),
+						email:$('form input[name=email]').val(),	
+					},
+					success:function(response,status,xhr){
+						$('#box').html(response);
+					}
+				});
+			});
+
+		});
+	</script>
+</head>
+<body>
+	<form >
+		<input type="text" name="user">
+		<input type="text" name="email">
+		<input type="button" value="按钮">
+	</form>
+	<div id="box"></div>
+</body>
+</html>
